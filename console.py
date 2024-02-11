@@ -4,13 +4,21 @@ import cmd
 import json
 from models.base_model import BaseModel
 from models import storage
+from models.base_model import BaseModel
+from models.user import User
+from models.state import State
+from models.review import Review
+from models.place import Place
+from models.city import City
+from models.amenity import Amenity
 
 
 class HBNBCommand(cmd.Cmd):
     """AirBnB Console Class"""
 
     prompt = "(hbnb) "
-    list_class = ["BaseModel"]
+    list_class = ["BaseModel", "User", "State",
+                  "Review", "Place", "City", "Amenity"]
 
     def do_EOF(self, line):
         """EOF comand exit console"""
@@ -21,7 +29,7 @@ class HBNBCommand(cmd.Cmd):
         return True
 
     def do_create(self, line):
-        """create new instance of BaseModel"""
+        """create new instance of class"""
         comands = line.split()
         if comands:
             if comands[0] in self.list_class:
