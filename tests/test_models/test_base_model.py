@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""unittest BaseModel module"""
+"""unittest BaseModel class module"""
 import unittest
 
 
 class TestBaseModel(unittest.TestCase):
-    """BaseModel Test Cases"""
+    """BaseModel class Test Cases"""
     pass

@@ -54,4 +54,3 @@ class BaseModel:
             else:
                 inst_dict[key] = self.__dict__[key]
         return inst_dict
-
