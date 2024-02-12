@@ -43,7 +43,7 @@ class BaseModel:
     def to_dict(self):
         """method return dict with all
         key/values of __dict__ instance"""
-        inst_dict = dict()
+        inst_dict = {}
         inst_dict['__class__'] = self.__class__.__name__
         for key in self.__dict__:
             if key == "created_at":
