@@ -34,4 +34,3 @@ class FileStorage:
             with open(self.__file_path, mode='r') as json_file:
                 json_dict = json_file.read()
             self.__objects = json.loads(json_dict)
-
