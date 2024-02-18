@@ -1,0 +1,27 @@
+.container .places h1{
+    font-size: 30px;
+    text-indent: 10px;
+    margin-top: 20px;
+}
+.container .places ul{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 220px;
+}
+.container .places ul article{
+    height: fit-content;
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+    text-align: center;
+    display: inline-block;
+}
+.container .places ul article h2{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    text-align: center;
+}
