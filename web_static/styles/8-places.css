@@ -18,6 +18,7 @@
     border-radius: 4px;
     text-align: center;
     display: inline-block;
+    position: relative;
 }
 .container .places ul article h2{
     margin: 0;
@@ -36,6 +37,74 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 40px;
-    left: 570px;
+    top: 10px;
+    right: 10px;
+}
+.information {
+    height: 80px;
+    border-bottom: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    margin-top: 30px;
+    position: relative;
+}
+.max_guest {
+    width: 100px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 30px;
+    background-image: url('../images/icon_group.png');
+    background-repeat: no-repeat;
+    background-position: center 5px;
+}
+.max_guest h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.number_rooms {
+    width: 100px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 145px;
+    background-image: url('../images/icon_bed.png');
+    background-repeat: no-repeat;
+    background-position: center 5px;
+}
+.number_rooms h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.number_bathrooms {
+    width: 100px;
+    height: 80px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 260px;
+    background-image: url('../images/icon_bath.png');
+    background-repeat: no-repeat;
+    background-position: center 5px;
+}
+.number_bathrooms h5 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.user {
+    position: relative;
+    text-align: left;
+    top: 10px;
+}
+.description {
+    position: relative;
+    margin-bottom: 50px;
+}
+.description p {
+    text-align: left;
+    margin-top: 20px;
 }
